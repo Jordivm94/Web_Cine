@@ -1,0 +1,23 @@
+body,html {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: lightgrey;
+}
+
+header{
+	display: grid;
+	justify-content: center;
+}
+
+#container{
+	-webkit-box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.75);
+	margin-left: 12.5%; 
+	margin-right: 12.5%;
+	width: 75vw;
+	height: 100vh;
+	background-color: beige;
+}
